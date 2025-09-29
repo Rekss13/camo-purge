@@ -1,6 +1,6 @@
 {
   "name": "camo-purge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Purges the github camo cache of readme badges",
   "main": "index.js",
   "bin": {
@@ -29,14 +29,14 @@
   },
   "homepage": "https://github.com/hobbyquaker/camo-purge#readme",
   "dependencies": {
+    "@cypress/request": "^3.0.9",
     "async": "^2.3.0",
-    "request": "^2.81.0",
     "yargs": "^7.1.0"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=10.18"
   },
   "devDependencies": {
-    "xo": "^0.18.1"
+    "xo": "^0.39.1"
   }
 }
